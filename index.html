@@ -3,18 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChocoLucro Pro - 6 Receitas Lucrativas de Brigadeiro Gourmet</title>
+    <title>ChocoLucro Pro - Receitas de Elite e Faturamento Mobile</title>
     
-    <!-- 1. VERIFICAÇÃO PINTEREST (SELINHO DE SITE OFICIAL) -->
+    <!-- SEO & TAGS DE AUTORIDADE -->
+    <meta name="description" content="Aprenda 6 receitas de brigadeiro gourmet de luxo. Guia completo para lucrar R$ 200/dia nesta Páscoa com confeitaria profissional.">
     <meta name="p:domain_verify" content="76a0e4f689895df4cf2f102b8a515cc6"/>
 
-    <!-- SEO & METADATA -->
-    <meta name="description" content="Aprenda 6 receitas reais de brigadeiro gourmet para vender na Páscoa. Guia completo com modo de preparo e dicas de vendas.">
-
-    <!-- LOGO FAVICON -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:%233b2110;stop-opacity:1' /><stop offset='100%' style='stop-color:%23D4AF37;stop-opacity:1' /></linearGradient></defs><path d='M50 5 L90 50 L50 95 L10 50 Z' fill='none' stroke='url(%23grad)' stroke-width='8'/><path d='M35 35 L65 35 L35 65 L65 65' fill='none' stroke='url(%23grad)' stroke-width='12' stroke-linecap='round' stroke-linejoin='round'/></svg>">
-
-    <!-- ANALYTICS -->
+    <!-- ANALYTICS G-89HXCVKFTX -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-89HXCVKFTX"></script>
     <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-89HXCVKFTX');</script>
 
@@ -22,120 +17,140 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
     <style>
-        :root { --choco: #2d1a0e; --gold: #C5A021; --cream: #fffaf0; }
+        :root { --choco: #1e1008; --gold: #D4AF37; --cream: #fffaf0; }
         body { background-color: var(--cream); color: var(--choco); font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
-        .recipe-card { background: white; border-radius: 35px; border: 1px solid #f3e5ab; margin-bottom: 50px; overflow: hidden; box-shadow: 0 15px 35px rgba(0,0,0,0.02); transition: 0.3s; }
-        .recipe-card:hover { transform: translateY(-5px); border-color: var(--gold); }
-        .gold-btn { background: linear-gradient(135deg, #D4AF37 0%, #f1c40f 100%); color: #2d1a0e !important; font-weight: 900; transition: 0.3s; border: none; cursor: pointer; text-decoration: none; text-align: center; }
-        .gold-btn:hover { transform: scale(1.03); box-shadow: 0 10px 25px rgba(212, 175, 55, 0.4); }
-        .recipe-step-box { background: #fffdf5; border-left: 5px solid var(--gold); padding: 20px; margin: 15px 0; border-radius: 0 20px 20px 0; }
-        .badge-new { background: var(--choco); color: var(--gold); font-size: 10px; font-weight: bold; padding: 4px 10px; border-radius: 50px; text-transform: uppercase; }
+        
+        /* Ajuste de Nitidez das Imagens de Luxo */
+        img { 
+            image-rendering: -webkit-optimize-contrast; 
+            image-rendering: crisp-edges; 
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+            transition: 0.5s;
+        }
+
+        .recipe-card { background: white; border-radius: 35px; border: 1px solid #f3e5ab; transition: 0.4s; overflow: hidden; margin-bottom: 40px; }
+        .recipe-card:hover { transform: translateY(-5px); box-shadow: 0 25px 50px rgba(59,33,16,0.1); }
+        .recipe-card:hover img { transform: scale(1.05); }
+
+        .img-frame { width: 100%; height: 350px; overflow: hidden; position: relative; border-bottom: 2px solid var(--gold); }
+        
+        .gold-btn { 
+            background: linear-gradient(135deg, #3b2110 0%, #1e1008 100%); 
+            color: var(--gold) !important; 
+            font-weight: 900; 
+            border: 1px solid var(--gold);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+            transition: 0.3s;
+        }
+        .gold-btn:hover { transform: scale(1.02); box-shadow: 0 15px 30px rgba(212, 175, 55, 0.4); }
+
+        .recipe-step { background: #fffdf5; border-left: 5px solid var(--gold); padding: 20px; border-radius: 0 20px 20px 0; margin: 15px 0; font-size: 0.95rem; }
     </style>
 </head>
 <body class="min-h-screen">
 
-    <nav class="p-5 bg-white/90 backdrop-blur-md border-b border-stone-200 sticky top-0 z-50 flex justify-between items-center px-10">
+    <!-- NAVBAR COM LOGO DIAMANTE -->
+    <nav class="p-4 bg-white/90 backdrop-blur-md border-b border-stone-200 sticky top-0 z-50 flex justify-between items-center px-8">
         <div class="flex items-center gap-2">
             <svg width="25" height="25" viewBox="0 0 100 100">
-                <defs><linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset='0%' style='stop-color:#3b2110' /><stop offset='100%' style='stop-color:#D4AF37' /></linearGradient></defs>
-                <path d="M50 10 L85 50 L50 90 L15 50 Z" fill="none" stroke="url(#g)" stroke-width="6" />
-                <path d="M35 35 H65 L35 65 H65" fill="none" stroke="url(#g)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+                <defs><linearGradient id="logoG" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#3b2110" /><stop offset="100%" style="stop-color:#D4AF37" /></linearGradient></defs>
+                <path d="M50 10 L85 50 L50 90 L15 50 Z" fill="none" stroke="url(#logoG)" stroke-width="6" />
+                <path d="M35 35 H65 L35 65 H65" fill="none" stroke="url(#logoG)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
-            <h1 class="text-xl font-black tracking-tighter uppercase italic text-stone-900">Choco<span class="text-amber-600">Lucro</span></h1>
+            <h1 class="text-xl font-black uppercase text-stone-900 italic tracking-tighter">Choco<span class="text-amber-600">Lucro</span></h1>
         </div>
-        <a href="#receitas" class="text-[9px] font-black uppercase border border-amber-600 px-4 py-2 rounded-full text-amber-600">Ver Receitas</a>
+        <a href="https://bit.ly/chocolucropro" target="_blank" class="text-[9px] font-black bg-stone-900 text-amber-500 px-5 py-2 rounded-full border border-amber-600 shadow-md">TREINAMENTO VIP</a>
     </nav>
 
-    <header class="py-16 px-6 text-center bg-stone-50 border-b border-stone-200">
-        <h2 class="text-4xl md:text-6xl font-black text-stone-900 leading-tight">Mestre do <span class="text-amber-700">Brigadeiro</span> 🍫</h2>
-        <p class="text-stone-500 text-sm mt-4 max-w-lg mx-auto uppercase tracking-widest font-bold text-center">6 Receitas Reais para Lucrar na Páscoa</p>
+    <header class="py-12 px-6 text-center">
+        <h2 class="text-4xl md:text-6xl font-black text-stone-900 leading-tight">Mestre da <span class="text-amber-700 italic">Confeitaria</span> 🍫</h2>
+        <p class="text-stone-500 text-sm mt-4 uppercase tracking-[0.3em] font-bold">6 Receitas Reais para Lucrar Hoje</p>
     </header>
 
-    <main id="receitas" class="container mx-auto px-6 max-w-3xl py-12">
+    <main class="container mx-auto px-5 max-w-2xl pb-20">
 
-        <!-- 1. LEITE NINHO -->
-        <div class="recipe-card">
+        <!-- RECEITA 1: PISTACHE IMPERIAL -->
+        <article class="recipe-card">
+            <div class="img-frame">
+                <img src="https://i.ibb.co/VW3v5gLk/image.jpg" alt="Pistache Imperial">
+            </div>
             <div class="p-8">
-                <div class="flex justify-between items-center mb-4 text-center">
-                    <h3 class="text-2xl font-black text-amber-900 uppercase">Brigadeiro de Leite Ninho</h3>
-                    <span class="badge-new">Queridinho</span>
-                </div>
-                <p class="text-stone-600 text-sm italic mb-6">Ideal para personalizar e atrair clientes apaixonados por sabores suaves.</p>
-                <div class="recipe-step-box">
-                    <p class="text-stone-600 text-sm"><strong>Ingredientes:</strong> 1 lata de leite condensado, 100g de creme de leite, 4 colheres (sopa) de Leite Ninho, 1 colher de manteiga.</p>
-                    <p class="mt-4 text-stone-600 text-sm"><strong>Modo:</strong> Cozinhe em fogo médio até desgrudar da panela. Deixe esfriar e passe no leite em pó.</p>
-                </div>
-                <a href="https://bit.ly/chocolucropro" target="_blank" class="gold-btn block w-full py-4 mt-6 rounded-2xl text-[11px] uppercase tracking-widest text-center">Curso Profissional Completo →</a>
+                <h3 class="text-2xl font-black text-amber-950 uppercase italic mb-3">01. Ouro Verde: Pistache Imperial</h3>
+                <p class="text-stone-600 text-sm mb-6 leading-relaxed">O doce de maior valor agregado do mercado de luxo. Ideal para casamentos e presentes corporativos.</p>
+                <div class="recipe-step"><strong>Preparo:</strong> Massa base branca com pasta pura de pistache. Cobertura de pistache triturado com finalização em pérolas de açúcar.</div>
+                <a href="https://bit.ly/chocolucropro" target="_blank" class="gold-btn block w-full py-4 mt-6 rounded-2xl text-[10px] text-center uppercase tracking-widest">Aprenda a lucrar R$ 200/dia →</a>
             </div>
-        </div>
+        </article>
 
-        <!-- 2. COCO -->
-        <div class="recipe-card">
-            <div class="p-8 text-center">
-                <h3 class="text-2xl font-black text-amber-900 uppercase mb-4 text-center">Brigadeiro de Coco</h3>
-                <p class="text-stone-600 text-sm italic mb-6">O clássico beijinho gourmet com textura cremosa.</p>
-                <div class="recipe-step-box text-left">
-                    <p class="text-stone-600 text-sm"><strong>Ingredientes:</strong> 1 leite condensado, 1 colher de manteiga, 100g coco ralado, 50ml leite de coco.</p>
-                </div>
-                <a href="https://bit.ly/chocolucropro" target="_blank" class="gold-btn block w-full py-4 mt-6 rounded-2xl text-[11px] uppercase tracking-widest">Aprenda a Vender Mais →</a>
+        <!-- RECEITA 2: BELGA TRADICIONAL -->
+        <article class="recipe-card">
+            <div class="img-frame">
+                <img src="https://i.ibb.co/0VhyT1r9/image.jpg" alt="Belga Tradicional">
             </div>
-        </div>
-
-        <!-- 3. MORANGO -->
-        <div class="recipe-card border-red-200">
             <div class="p-8 text-center">
-                <h3 class="text-2xl font-black text-red-900 uppercase mb-4">Morango Cream</h3>
-                <p class="text-stone-600 text-sm italic mb-6">O visual rosa que encanta em qualquer vitrine.</p>
-                <div class="recipe-step-box text-left">
-                    <p class="text-stone-600 text-sm"><strong>Ingredientes:</strong> 1 leite condensado, 1 creme de leite, 3 colheres Nesquik morango.</p>
-                </div>
-                <a href="https://bit.ly/chocolucropro" target="_blank" class="gold-btn block w-full py-4 mt-6 rounded-2xl text-[11px] uppercase tracking-widest">Segredos de Embalagem →</a>
+                <h3 class="text-2xl font-black text-amber-950 uppercase italic mb-3">02. Belga Tradicional (Ouro Negro)</h3>
+                <p class="text-stone-600 text-sm mb-6">O clássico que nunca falha. O brilho perfeito e a textura que derrete na boca.</p>
+                <div class="recipe-step text-left"><strong>Dica de Mestre:</strong> Use manteiga francesa e cacau 50% para um sabor profundo e luxuoso.</div>
+                <a href="https://bit.ly/chocolucropro" target="_blank" class="gold-btn block w-full py-4 mt-6 rounded-2xl text-[10px] text-center uppercase">Quero Me Profissionalizar →</a>
             </div>
-        </div>
+        </article>
 
-        <!-- 4. VEGANO -->
-        <div class="recipe-card border-green-200">
-            <div class="p-8 text-center">
-                <h3 class="text-2xl font-black text-green-900 uppercase mb-4">Brigadeiro Vegano</h3>
-                <p class="text-stone-600 text-sm italic mb-6">Inovação e saúde no seu cardápio de doces.</p>
-                <div class="recipe-step-box text-left" style="border-left-color: #059669">
-                    <p class="text-stone-600 text-sm"><strong>Ingredientes:</strong> 200g biomassa banana ou leite condensado de coco, 3 colheres cacau 100%.</p>
-                </div>
-                <a href="https://bit.ly/chocolucropro" target="_blank" class="gold-btn block w-full py-4 mt-6 rounded-2xl text-[11px] uppercase tracking-widest text-center">Mercado Fitness Lucrativo →</a>
+        <!-- RECEITA 3: NINHO COM NUTELLA -->
+        <article class="recipe-card">
+            <div class="img-frame">
+                <img src="https://i.ibb.co/3my35Ph1/image.jpg" alt="Ninho com Nutella">
             </div>
-        </div>
-
-        <!-- 5. BELGA -->
-        <div class="recipe-card">
-            <div class="p-8 text-center">
-                <h3 class="text-2xl font-black text-amber-900 uppercase mb-4">Tradicional Belga</h3>
-                <p class="text-stone-500 text-sm italic mb-6 text-center">A receita mais lucrativa da confeitaria.</p>
-                <a href="https://bit.ly/chocolucropro" target="_blank" class="gold-btn block w-full py-4 mt-6 rounded-2xl text-[11px] uppercase">Quero Lucrar Agora →</a>
+            <div class="p-8">
+                <h3 class="text-2xl font-black text-amber-950 uppercase italic mb-3">03. Ninho Real com Nutella</h3>
+                <p class="text-stone-600 text-sm mb-6">O campeão absoluto de vendas nas redes sociais. Visual hipnotizante e sabor marcante.</p>
+                <a href="https://bit.ly/chocolucropro" target="_blank" class="gold-btn block w-full py-4 rounded-2xl text-[10px] text-center uppercase">Segredo da Nutella Suprema →</a>
             </div>
-        </div>
+        </article>
 
-        <!-- 6. NINHO NUTELLA -->
-        <div class="recipe-card">
-            <div class="p-8 text-center">
-                <h3 class="text-2xl font-black text-amber-900 uppercase mb-4">Ninho com Nutella</h3>
-                <p class="text-stone-500 text-sm italic mb-6 text-center">O campeão de pedidos de 2024.</p>
-                <a href="https://bit.ly/chocolucropro" target="_blank" class="gold-btn block w-full py-4 mt-6 rounded-2xl text-[11px] uppercase">Acessar Treinamento →</a>
+        <!-- RECEITA 4: MORANGO E CREME -->
+        <article class="recipe-card">
+            <div class="img-frame">
+                <img src="https://i.ibb.co/N6XPBmZV/image.jpg" alt="Morango Cream">
+            </div>
+            <div class="p-8">
+                <h3 class="text-2xl font-black text-amber-950 uppercase italic mb-3">04. Morango & Creme (Diferenciado)</h3>
+                <p class="text-stone-600 text-sm mb-6">Visual rosado e elegante. Perfeito para conquistar o público que busca sofisticação.</p>
+                <a href="https://bit.ly/chocolucropro" target="_blank" class="gold-btn block w-full py-4 rounded-2xl text-[10px] text-center uppercase text-center">Ver Plano de Vendas Mobile →</a>
+            </div>
+        </article>
+
+        <!-- RECEITA 5: VEGANO DARK -->
+        <article class="recipe-card">
+            <div class="img-frame">
+                <img src="https://i.ibb.co/bRNDj6JN/image.jpg" alt="Brigadeiro Vegano">
+            </div>
+            <div class="p-8">
+                <h3 class="text-2xl font-black text-amber-950 uppercase italic mb-3">05. Dark Fitness (Vegano)</h3>
+                <p class="text-stone-600 text-sm mb-6">Atenda o mercado que mais cresce: o público que não abre mão da saúde e do sabor.</p>
+                <a href="https://bit.ly/chocolucropro" target="_blank" class="gold-btn block w-full py-4 rounded-2xl text-[10px] text-center uppercase">Explorar Nicho Vegano →</a>
+            </div>
+        </article>
+
+        <!-- CTA FINAL COM IMAGEM DE SUCESSO -->
+        <div class="mt-20">
+            <div class="img-frame rounded-t-[40px]">
+                <img src="https://i.ibb.co/sJMwyLy5/image.jpg" alt="Sucesso nas Vendas">
+            </div>
+            <div class="bg-stone-900 p-10 rounded-b-[40px] text-center">
+                <h3 class="text-3xl font-black text-white mb-6 uppercase leading-tight">Quer transformar seu celular em uma <span class="text-amber-500 italic">Máquina de Dinheiro?</span></h3>
+                <p class="text-stone-400 text-sm mb-10 leading-relaxed">Não perca mais tempo apenas baixando vídeos. Comece a criar os seus próprios e venda todos os dias pelo celular.</p>
+                <a href="https://bit.ly/chocolucropro" target="_blank" class="block w-full bg-white text-black font-black py-5 rounded-2xl uppercase text-xs shadow-[0_0_30px_rgba(255,255,255,0.2)] hover:bg-amber-600 transition-all">Começar Jornada Creator Pro 💰</a>
             </div>
         </div>
 
     </main>
 
-    <footer class="p-16 bg-stone-900 text-stone-400 text-center border-t border-amber-900/20">
-        <div class="max-w-2xl mx-auto space-y-6">
-            <h5 class="text-white font-black text-xl uppercase italic tracking-widest">ChocoLucro Pro</h5>
-            <p class="text-[9px] uppercase tracking-[0.3em] font-medium leading-relaxed">
-                Site verificado pelo Pinterest Business. <br>
-                Segurança via Vercel Edge Networks.
-            </p>
-            <div class="pt-6 border-t border-white/5">
-                <p class="text-[8px] uppercase">&copy; 2026 ChocoLucro - Todos os direitos reservados</p>
-            </div>
-        </div>
+    <!-- FOOTER -->
+    <footer class="p-10 bg-white border-t border-stone-200 text-center text-stone-400 text-[10px] uppercase tracking-widest">
+        <p class="font-bold text-stone-900 mb-2 italic">ChocoLucro Pro &copy; 2026</p>
+        <p>Desenvolvido sob o Protocolo de Elite para Confeiteiros e Criadores.</p>
     </footer>
 
 </body>
